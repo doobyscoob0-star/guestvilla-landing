@@ -116,30 +116,17 @@ body {
 
 .preview-image {
   width: 100%;
-  height: 160px;
-  background: linear-gradient(135deg, #f1f5f9 0%, #e2e8f0 100%);
+  height: auto;
+  background: #f1f5f9;
   border-radius: 12px;
   margin-bottom: 16px;
   overflow: hidden;
 }
 
-.preview-placeholder {
+.preview-img {
   width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  color: #94a3b8;
-}
-
-.preview-placeholder svg {
-  margin-bottom: 8px;
-}
-
-.preview-placeholder span {
-  font-size: 14px;
-  font-weight: 500;
+  height: auto;
+  display: block;
 }
 
 .preview-description {
